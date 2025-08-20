@@ -1,7 +1,5 @@
 import streamlit as st
 from AB_Prescribing import AB_Prescribing
-import os
-
 st.markdown(
     """
     <div style='direction: rtl; text-align: right; font-size:18px;'>
