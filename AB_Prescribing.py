@@ -74,10 +74,7 @@ def AB_Prescribing(age, sex, chief_complaint, onset_symptoms, physcial_exam=None
             text_format=Clinical_prescribing
             )
 
-# If the model refuses to respond, you will get a refusal message
+# If the model refuses to respond
 
     Clinical_prescribing = response.output_parsed
     return(patient ,Clinical_prescribing.steps, Clinical_prescribing.final_answer)
-
-#answer=AB_Prescribing(20, 'female', 'burning sensation in vagina', 5)
-#print(answer[1])
